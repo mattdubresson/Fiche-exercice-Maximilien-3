@@ -1,0 +1,106 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[french]{babel}
+\usepackage{amsmath, amssymb}
+\usepackage{graphicx}
+\usepackage{geometry}
+\geometry{margin=2cm}
+\usepackage{enumitem}
+\usepackage{float}
+\usepackage{fancyhdr}
+\usepackage{titlesec}
+\usepackage{amsmath}
+\pagestyle{fancy}
+
+% Nettoyer les styles par défaut
+\fancyhf{}
+
+% En-têtes
+\fancyhead[L]{Fiches d'exercices pour Maximilien (3)} % à gauche
+\fancyhead[R]{Matteo Dubresson} % à droite
+
+% Pieds de page
+\fancyfoot[C]{\thepage} % numéro de page centré
+
+%Titre et généralités
+\title{Fiche d'exercices \\ pour Maximilien (3)}
+\date{19/09/2025}
+\author{}
+
+%Espace entre les subsections
+\titlespacing*{\subsection}{0pt}{5ex plus 0.5ex minus 0.2ex}{1.5ex plus 0.2ex}
+
+
+
+
+\begin{document}
+
+\maketitle
+
+
+\subsection*{Exercice 1 : Prédominance et mesure de pH}
+
+L'acide benzoïque $\text{C}_6\text{H}_5\text{COOH}_{(\text{aq})}$ possède une constante d'acidité $\text{p}K_a = 4,20$ à $25^\circ\text{C}$.
+
+\begin{enumerate}
+    \item Après avoir donné la définition de la constante d'acidité, démontrer la relation :
+    \[ \text{pH} = \text{p}K_a + \log\left( \frac{[\text{C}_6\text{H}_5\text{COO}^-]_{\text{éq}}}{[\text{C}_6\text{H}_5\text{COOH}]_{\text{éq}}} \right) \]
+    \item Tracer le diagramme de prédominance des espèces du couple considéré.
+    \item On prépare deux solutions d'acide benzoïque de concentrations différentes. Pour la première solution, le $\text{pH}$ vaut $3,20$. Déterminer l'espèce prédominante et calculer le rapport des concentrations $\frac{[\text{C}_6\text{H}_5\text{COO}^-]_{\text{éq}}}{[\text{C}_6\text{H}_5\text{COOH}]_{\text{éq}}}$.
+\end{enumerate}
+
+
+\subsection*{Exercice 2 : Étude de l'acide éthanoïque}
+
+L'acide éthanoïque $\text{CH}_3\text{COOH}_{(\text{aq})}$ est un acide faible présent dans le vinaigre. On dissout une quantité de matière d'acide éthanoïque dans l'eau distillée afin d'obtenir $V = 500\,\text{mL}$ d'une solution $S_1$ de concentration apportée $C_1 = 1,0 \times 10^{-2}\,\text{mol}\cdot\text{L}^{-1}$.
+
+Le $\text{pH}$ mesuré de la solution $S_1$ à $25^\circ\text{C}$ vaut $\text{pH} = 3,4$.
+
+\begin{enumerate}
+    \item Écrire l'équation de la réaction acide-base entre l'acide éthanoïque et l'eau.
+    \item Exprimer le quotient de réaction $Q_{r}$ à un instant quelconque, puis donner l'expression du quotient de réaction à l'état final $Q_{r,\text{éq}}$.
+    \item Calculer la concentration en ions oxonium $[\text{H}_3\text{O}^+]_{\text{éq}}$ à l'équilibre.
+    \item En déduire les concentrations des autres espèces chimiques présentes en solution à l'équilibre et calculer la valeur de la constante d'acidité $K_a$ du couple $\text{CH}_3\text{COOH}_{(\text{aq})} / \text{CH}_3\text{COO}^-_{(\text{aq})}$.
+\end{enumerate}
+
+
+\subsection*{Exercice 3 : Sens d'évolution spontanée d'un système}
+
+On mélange à $25^\circ\text{C}$ dans un bécher :
+\begin{itemize}
+    \item $V_1 = 20,0\,\text{mL}$ d'une solution d'acide méthanoïque $\text{HCOOH}_{(\text{aq})}$ de concentration $C_1 = 2,0 \times 10^{-2}\,\text{mol}\cdot\text{L}^{-1}$ ;
+    \item $V_2 = 30,0\,\text{mL}$ d'une solution de méthanoate de sodium $(\text{Na}^+ + \text{HCOO}^-)_{(\text{aq})}$ de concentration $C_2 = 1,0 \times 10^{-2}\,\text{mol}\cdot\text{L}^{-1}$ ;
+    \item $V_3 = 10,0\,\text{mL}$ d'une solution d'acide éthanoïque $\text{CH}_3\text{COOH}_{(\text{aq})}$ de concentration $C_3 = 5,0 \times 10^{-2}\,\text{mol}\cdot\text{L}^{-1}$ ;
+    \item $V_4 = 40,0\,\text{mL}$ d'une solution d'éthanoate de sodium $(\text{Na}^+ + \text{CH}_3\text{COO}^-)_{(\text{aq})}$ de concentration $C_4 = 1,5 \times 10^{-2}\,\text{mol}\cdot\text{L}^{-1}$.
+\end{itemize}
+
+Données des constantes d'acidité à $25^\circ\text{C}$ :
+\begin{itemize}
+    \item $K_{a1} (\text{HCOOH}/\text{HCOO}^-) = 1,8 \times 10^{-4}$ ($\text{p}K_{a1} = 3,75$)
+    \item $K_{a2} (\text{CH}_3\text{COOH}/\text{CH}_3\text{COO}^-) = 1,8 \times 10^{-5}$ ($\text{p}K_{a2} = 4,75$)
+\end{itemize}
+
+On considère la réaction modélisée par l'équation :
+\[ \text{HCOOH}_{(\text{aq})} + \text{CH}_3\text{COO}^-_{(\text{aq})} \rightleftharpoons \text{HCOO}^-_{(\text{aq})} + \text{CH}_3\text{COOH}_{(\text{aq})} \]
+
+\begin{enumerate}
+    \item Exprimer la constante d'équilibre $K$ de cette réaction en fonction de $K_{a1}$ et $K_{a2}$, puis calculer sa valeur numérique.
+    \item Calculer les concentrations initiales de chacune des quatre espèces chimiques dans le mélange.
+    \item En déduire le sens d'évolution spontanée du système chimique.
+\end{enumerate}
+
+
+\subsection*{Exercice 4 : Réaction quasi-totale d'un acide fort avec l'eau}
+
+On prépare une solution d'acide chlorhydrique $(\text{H}_3\text{O}^+ + \text{Cl}^-)_{(\text{aq})}$ de concentration apportée $C_0 = 5,0 \times 10^{-3}\,\text{mol}\cdot\text{L}^{-1}$ par dissolution de chlorure d'hydrogène gazeux $\text{HCl}_{(\text{g})}$ dans de l'eau.
+
+\begin{enumerate}
+    \item Écrire l'équation de la réaction entre le chlorure d'hydrogène et l'eau.
+    \item Sachant que l'acide chlorhydrique est un acide fort dans l'eau, que vaut le taux d'avancement final $\tau$ de cette réaction ?
+    \item Exprimer le $\text{pH}$ d'une solution d'acide fort en fonction de sa concentration apportée $C_0$.
+    \item Calculer le $\text{pH}$ de la solution préparée.
+    \item On dilue cette solution d'un facteur 10. Quelle sera la nouvelle valeur du $\text{pH}$ ? Justifier.
+\end{enumerate}
+
+\end{document}
